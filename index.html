@@ -84,8 +84,8 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="img-center">
-                <img src="assets/img/portfolio/Screenshot_1.png" alt="cv">
+                <div class="imgbox">
+                <img class="center-fit" src="assets/img/portfolio/Screenshot_1.png" alt="cv">
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -167,9 +167,9 @@
             </div> -->
         </section>
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="projecten">
+        <section class="page-section portfolio bg-primary text-white mb-0" id="projecten">
             <div class="container">
-                <!-- About Section Heading-->
+                <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Projecten</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -177,20 +177,28 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/imgonline-com-ua-resize-SogjcSVP8CBq6YDd-hangman.jpg"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/imgonline-com-ua-resize-bkQLL04xOZ-uclloge.jpg" alt="..." />
+                        </div>
+                    </div>
+                </section>
+        
         <!-- Contact Section-->
         
         <!-- Footer-->
@@ -258,6 +266,70 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/imgonline-com-ua-resize-1CWCwDvgEgHV.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Zelfstandig werken is altijd al een van mijn sterke punten geweest. Ik heb vaak zeer weinig nodig om zelfstandig te werk te gaan. Dit kan ook een kleine zwakheid zijn omdat ik vaak veel zelfstandig wil doen en dan ook niet snel om hulp vraag als iets niet lukt.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Galgje (Hangman)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/imgonline-com-ua-resize-SogjcSVP8CBq6YDd-hangman.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Samen met een groep studenten een klein spel Galgje (Hangman) gemaakt. Het spel werd gemaakt met Java op het platform JavaFX.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">UCLL restaurant app</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/alles.jpg"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">een idee van een app voor het UCLL restaurant uitgewerkt. Het project UCLL-Eats is een app die oogt op het verbeteren van het management en de ervaring rond de refter en het restaurant van Campus proximus. De app beschikt over een druktemeter, de geschatte wachttijd om te bestellen, de mogelijkheid om een bestelling te plaatsen en een reserveersysteem voor de refter. 
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
